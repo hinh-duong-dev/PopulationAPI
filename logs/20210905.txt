@@ -1,0 +1,2 @@
+2021-09-05 16:53:14.375 +07:00 [INF] 2021-53-05 0424:53i:14.369 - API endpoint called - /population?state=1,10,12
+2021-09-05 17:17:19.729 +07:00 [INF] 2021-17-05 0524:17i:19.725 - API endpoint called - /population?state=15
