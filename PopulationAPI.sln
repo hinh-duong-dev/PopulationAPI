@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulationAPI", "PopulationAPI.csproj", "{BB7F0561-E033-41F5-82BE-F7DB3BB53D47}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD591D3B-0EC8-40F1-BA90-1B4693D37EBF}"
+	ProjectSection(SolutionItems) = preProject
+		CICD-design.txt = CICD-design.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
