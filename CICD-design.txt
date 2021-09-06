@@ -1,0 +1,17 @@
+TASK 3
+
+1. Create a local repository with the name Population-API and push to GitHub
+
+2. Go to https://dev.azure.com, create a project Population-API
+
+3. In project Population-API, create a build pipeline, config to get source from GitHub repository in step 1, select default branch for build (master branch), select template ASP.NET Core for build, 
+   create an agent job in include tasks in order Restore, Build, Test, Publish, Publish Artifact and enable continuous integration trigger
+
+4. Go to https://portal.azure.com, create a Azure App Service with the name population-api
+
+5. In project Population-API, create a release pipeline, add an artifact select source type Build to get source from the build pipeline in the step 3, 
+   add a stage for release pipeline and select template Azure App Service Deployment, add an agent job and config for agent job to deploy to population-api app service is created in the step 4,
+   and enable continuous deployment trigger
+
+Every time there is a change to the code in the master branch, the code will be automatically built and deployed to population-api app service.
+
